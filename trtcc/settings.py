@@ -77,10 +77,15 @@ WSGI_APPLICATION = 'trtcc.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'df50kdbtma84la',
+        'USER': 'quxpjovlsliyht',
+        'PASSWORD': 'be15734c60182fba6223d2952729a8f73a143ce7f2aaf424616620722fa33363',
+        'HOST': 'ec2-54-164-241-193.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation
