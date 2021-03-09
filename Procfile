@@ -1,1 +1,1 @@
-web: gunicorn pytrtcc.wsgi
+web: gunicorn trtcc.wsgi
